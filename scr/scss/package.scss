@@ -1,0 +1,100 @@
+.package {
+    padding-bottom: 120px;
+}
+
+.package__title {
+    color: #141024;
+    font-size: 50px;
+    font-family: Jost;
+    font-weight: 600;
+}
+ 
+.package-cards {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.package-card {
+    width: 360px;
+    height: 460px;
+    border-radius: 20px;
+    border: 1px solid rgba(20, 16, 36, 0.20000000298023224);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.package-card__level {
+    color: #141024;
+    text-align: center;
+    font-size: 30px;
+    font-family: Jost;
+    font-weight: 600;
+}
+.package-card__price {
+    margin: 63px 0 20px;
+    color: #141024;
+    text-align: center;
+    font-size: 50px;
+    font-family: Jost;
+    font-weight: 600;
+}
+.package-card__text {
+    color: #141024;
+    text-align: center;
+    font-size: 18px;
+    font-family: Jost;
+}
+.package-card__btn {
+    margin-top: auto;
+    background-color: #d52027;
+    width: 280px;
+    height: 79px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: Jost;
+    border: none;
+    cursor: pointer;
+}
+.package-card__btn:hover{
+    background-color: #d59497;
+}
+.package-card_active {
+    
+}
+.package-card:hover{
+    height: 520px;
+    background-color: #141024;
+    transition: 0.4s;
+    h4{
+        color: white;
+    }
+    h3 {
+        color: white;
+    }
+    p{
+        color: white;
+    }
+
+}
+.package-card:first-child{
+    height: 520px;
+    content: "";
+    background-color: #141024;
+    color: white;
+    h4{
+        color: white;
+    }
+    h3{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+}
